@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ReservaciónEntradas</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/navigacionStyle.css" />
+	<link rel="stylesheet" href="css/footerStyle.css" />
+	<link rel="stylesheet" href="css/ReservarEntradas.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link rel="stylesheet" href="./scripts/ReservarEntrada.js">
+	<link rel="stylesheet" href="php/ReservarEntradas.php">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<!--BARRA NAVEGACION-->
+	<nav class="navigation">
+		<div class="headerNav">
+			<img src="img/museoIco.png" id="m1" />
+			<h1>MUSEO UNIVERSUM</h1>
+			<img src="img/museoIco.png" id="m2" />
+		</div>
+		<ul class="navBar">
+			<li><a href="#">Inicio</a></li>
+			<li><a href="">Informacion Museo</a></li>
+			<li><a href="">Espacios</a></li>
+			<li><a href="">Area Ventas</a></li>
+			<li><a href="">Contacto</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section class="container" id="mainContent">
+			<div class="txtPrincipalReservacion">
+				<h1>Reservación de Entradas</h1>
+			</div>
+		</section>
+		<section class="container1">
+			<div class="container2">
+				<div class="calendar">
+					<div class="month">
+						<i class="fas fa-angle-left 
+						prev"><</i>
+								<div class="date">
+									<h1>Junio</h1>
+									<p></p>
+								</div>
+								<i class="fas fa-angle-right
+						next">></i>
+					</div>
+					<div class="weekdays">
+						<div>D</div>
+						<div>L</div>
+						<div>M</div>
+						<div>M</div>
+						<div>J</div>
+						<div>V</div>
+						<div>S</div>
+					</div>
+					<div class="days">
+						<div class="prev-date">26</div>
+						<div class="prev-date">27</div>
+						<div class="prev-date">28</div>
+						<div class="prev-date">29</div>
+						<div class="prev-date">30</div>
+						<div class="daysweeks">1</div>
+						<div class="daysweeks">2</div>
+						<div class="daysweeks">3</div>
+						<div class="daysweeks">4</div>
+						<div class="daysweeks">5</div>
+						<div class="daysweeks">6</div>
+						<div class="daysweeks">7</div>
+						<div class="daysweeks">8</div>
+						<div class="daysweeks">9</div>
+						<div class="daysweeks">10</div>
+						<div class="daysweeks">11</div>
+						<div class="daysweeks">12</div>
+						<div class="daysweeks">13</div>
+						<div class="daysweeks">14</div>
+						<div class="daysweeks">15</div>
+						<div class="daysweeks">16</div>
+						<div class="daysweeks">17</div>
+						<div class="daysweeks">18</div>
+						<div class="daysweeks">19</div>
+						<div class="daysweeks">20</div>
+						<div class="daysweeks">21</div>
+						<div class="daysweeks">22</div>
+						<div class="daysweeks">23</div>
+						<div class="daysweeks">24</div>
+						<div class="daysweeks">25</div>
+						<div class="daysweeks">26</div>
+						<div class="daysweeks">27</div>
+						<div class="daysweeks">28</div>
+						<div class="daysweeks">29</div>
+						<div class="daysweeks">30</div>
+						<div class="daysweeks">31</div>
+						<div class="next-date">1</div>
+						<div class="next-date">2</div>
+						<div class="next-date">3</div>
+						<div class="next-date">4</div>
+						<div class="next-date">5</div>
+						<div class="next-date">6</div>
+					</div>
+					<div class="verificardia">
+						<div class="consultar">
+							<button name="button">Consultar</button>
+						</div>
+						<div class="horariosdisponibles">
+							<textarea name="comentarios" rows="8" cols="37">horarios disponibles</textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="formulario">
+				<div class="nombrecorreo">
+
+					<div class="nombre">
+						<div>
+							<p>Nombre</p>
+						</div>
+						<div>
+							<input type="text" size="15" maxlength="30" placeholder="Nombre Completo" name="Nombre"
+								required=»required»>
+						</div>
+					</div>
+
+					<div class="correo">
+						<div>
+							<p>Correo Electronico</p>
+						</div>
+						<div>
+							<input type="text" size="15" maxlength="30" placeholder="Correo Electrónico" name="Correo"
+								required=»required»>
+						</div>
+					</div>
+				</div>
+
+				<div class="fechastelefono">
+
+					<div class="fechas">
+						<div>
+							<p>Fecha y hora </p>
+						</div>
+						<div>
+							<input type="datetime-local" name="fechahora" min="2021-01-01T08:00" max="2022-01-01T12:00"
+								step="1-1-1T30:00" required=»required»>
+						</div>
+					</div>
+
+					<div class="telefono">
+						<div>
+							<p>Número Telefonico</p>
+						</div>
+						<div>
+							<input type="tel" name="telefono" pattern="[0-9]{10}" required=»required»
+								placeholder="55555555" maxlength="10" minlength="10">
+						</div>
+					</div>
+				</div>
+
+				<div class="formapago">
+
+					<div class="listapago">
+
+						<p>Forma de pago</p>
+						<form name="formulario" id="formulario" action="" method="POST">
+
+							<datalist id="listas">
+								<option value="Tarjeta Credito">
+								<option value="Tarjeta Debito">
+								<option value="Pay-Pal">
+							</datalist>
+							<input name="color" list="listas">
+						</form>
+
+					</div>
+
+					<div class="infopago">
+
+						<p>Datos de Pago</p>
+						<div>
+							<input type="Tarjeta" name="Tarjeta" pattern="[0-9]{10}" required=»required»
+								placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16" minlength="10">
+						</div>
+					</div>
+				</div>
+
+				<div class="confireservacion">
+
+					<div class="captcha">
+
+						<form action="" method="post">
+							<div id="recaptcha" class="g-recaptcha"
+								data-sitekey="6Ld4Jh8TAAAAAD2tURa21kTFwMkKoyJCqaXb0uoK">
+							</div>
+						</form>
+						<script src='https://www.google.com/recaptcha/api.js'></script>
+
+					</div>
+
+					<div class="botonreservar">
+
+						<button name="button">Reservar</button>
+					</div>
+
+				</div>
+			</div>
+			<script src="./scripts/ReservarEntrada.js"></script>
+
+		</section>
+
+		<footer class="footMain">
+			<div class="imgFoot">
+				<img src="img/imgFoot.png" alt="imgFooter" />
+			</div>
+			<div class="listFoot">
+				<ul>
+					<li><a href="">Here is a link</a></li>
+					<li><a href="">Here is a link</a></li>
+				</ul>
+			</div>
+			<div class="listFoot">
+				<ul>
+					<li><a href="">Other link to another website</a></li>
+					<li><a href="">Other link to another website</a></li>
+					<li><a href="">Other link to another website</a></li>
+				</ul>
+			</div>
+		</footer>
+	</main>
+</body>
+
+</html>

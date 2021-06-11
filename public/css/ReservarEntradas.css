@@ -1,0 +1,347 @@
+.container1{
+	display: flex;
+	padding: 0px 0px 10px 0px;
+}
+.container2{
+	display: flex;
+	padding: 40px 0px 10px 50px;
+}
+#mainNotices .txtPrincipal{
+	margin: auto;
+	text-align: center;
+}
+#mainContent .txtPrincipalReservacion{
+	margin: auto; 
+	margin-left: 38%;
+}
+#mainContent .txtPrincipalReservacion h1{
+	margin: auto; 
+	font-size: 2.0rem;
+	color: #030b0f;
+	margin-left: 3ch;
+}
+.calendar {
+    margin-top: 0cm;
+    margin-left: 0cm;
+    border-color: #0f0f0f;
+    width: 410px;
+    height: 430px;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgba(148, 103, 255, 0.966);
+  }
+  .month {
+    width: 100%;
+    height: 10rem;
+    background-color: #0a9a84;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 2rem; */
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  .month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  .month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  .month p {
+    font-size: 1.6rem;
+  }
+  .weekdays {
+    background-color: #ddfdf1;
+    width: 100%;
+    height: 5rem;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+  }
+  .weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(24.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(139, 209, 125, 0.5);
+  } 
+  .days {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.0rem;
+  }
+  .days div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(20.2rem / 7);
+    height: 3.2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(57, 1, 1, 0.5);
+    transition: background-color 0.2s;
+  }
+  
+  .days div:hover:not(.today) {
+    background-color: #c3cdf8;
+    border: 0.2rem solid rgb(3, 3, 3);
+    cursor: pointer;
+  }
+  
+  .prev-date,
+  .next-date {
+    background-color: rgb(134, 135, 136);
+  }
+  
+  .today {
+    background-color: #86c4ac;
+  }
+.verificardia{
+    margin-top: 10px;
+    display: flex;
+    /* background-color: #c8acf8; */
+    height: 160px;
+    width: 410px;
+}
+.consultar{
+    /* background-color: #4c278c; */
+    margin-left: 0px;
+    height: 160px;
+    width: 120px;
+}
+.consultar button{
+    /* background-color: #6038a9; */
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+}
+.horariosdisponibles{
+       /* background-color: #4c278c; */
+       margin-left: 0px;
+       height: 160px;
+       width: 120px;
+}
+.formulario {
+    margin-top: 0cm;
+    margin-left: 0cm;
+    margin-top: 1.05cm;
+    margin-left: 1cm;
+    height: 18.7cm;
+    width: 25.9cm;
+    background-color: #0a8598; 
+}
+.nombrecorreo{
+    display: flex;
+}
+.nombre{
+    margin-left: 0cm;
+    width: 490px;
+    /* background-color: rgb(78, 71, 8);   */
+}
+.nombre div{
+    text-align:center;
+    margin: 40px;
+    /* background-color: rgb(45, 69, 86);  */
+}
+.nombre p{
+    text-align:center;
+    font-size: 30px;
+    /* background-color: rgb(77, 181, 61);   */
+}
+.nombre input{
+    font-size: 20px; 
+    font-family:Arial;
+    width: 405px;
+    height: 25px;
+    text-align:center;
+    opacity: 10.5;
+    /* background-color:rgba(255, 255, 255, 0.571); */
+}
+.correo{
+    margin: auto;
+    width: 490px;
+    /* background-color: palevioletred;  */
+}
+.correo div{
+    text-align:center;
+    margin: 40px;
+    /* background-color: peachpuff;  */
+}
+.correo p{
+    text-align:center;
+    font-size: 30px;
+    /* background-color: red; */
+}
+.correo input{
+    font-size: 20px; 
+    font-family:Arial;
+    width: 400px;
+    height: 25px;
+    text-align:center;
+    opacity: 10.5;
+    /* background-color:rgba(255, 255, 255, 0.781); */
+}
+.fechastelefono{
+    display: flex;
+    height: 200px;
+    width: 980px;
+    /* background-color: khaki; */
+}
+.fechas{
+    margin-left: 0cm;
+    width: 490px;
+    /* background-color: rgb(220, 201, 33); */
+}
+.fechas div{
+    text-align:center;
+    margin: 40px;
+    /* background-color: rgb(45, 69, 86);  */
+}
+.fechas p{
+    text-align:center;
+    font-size: 30px;
+    /* background-color: rgb(77, 181, 61);   */
+}
+.fechas input{
+    font-size: 20px; 
+    font-family:Arial;
+    width: 400px;
+    height: 25px;
+    text-align:center;
+    opacity: 10.5;
+    /* background-color:rgba(255, 255, 255, 0.781); */
+}
+.telefono{
+    margin-left: 0cm;
+    width: 490px;
+    /* background-color: rgb(162, 150, 46); */
+}
+.telefono div{
+    text-align:center;
+    margin: 40px;
+    /* background-color: rgb(45, 69, 86);  */
+}
+.telefono p{
+    text-align:center;
+    font-size: 30px;
+    /* background-color: rgb(77, 181, 61);   */
+}
+.telefono input{
+    font-size: 20px; 
+    font-family:Arial;
+    width: 400px;
+    height: 25px;
+    text-align:center;
+    opacity: 10.5;
+    /* background-color:rgba(255, 255, 255, 0.781); */
+}
+.formapago{
+    display: flex;
+    height: 200px;
+    width: 980px;
+    /* background-color: rgb(7, 84, 16); */
+}
+.listapago{
+    text-align:center;
+    margin-left: 0cm;
+    width: 490px;
+    height: 200px;
+    /* background-color: rgb(12, 64, 101); */
+}
+.listapago p{
+    text-align:center;
+    font-size: 30px;
+    /* background-color: rgb(77, 181, 61);   */
+}
+.listapago form{
+    width: 490px;
+    height: 25px;
+    /* background-color:rgba(255, 22, 22, 0.781); */
+}
+.infopago{
+    text-align:center;
+    margin-left: 0cm;
+    width: 490px;
+    height: 200px;
+    /* background-color: rgb(187, 211, 231); */
+}
+.infopago p{
+    text-align:center;
+    font-size: 30px;
+    /* background-color: rgb(209, 250, 202);   */
+}
+.info input{
+    font-size: 20px; 
+    font-family:Arial;
+    width: 405px;
+    height: 25px;
+    text-align:center;
+    opacity: 10.5;
+    /* background-color:rgba(255, 255, 255, 0.571); */
+}
+.confireservacion{
+    display: flex;
+    height: 125px;
+    width: 980px;
+    /* background-color: rgb(164, 51, 158); */
+}
+.captcha{
+    margin-left: 0px;
+    text-align:center;
+    font-size: 30px;
+    height: 125px;
+    width: 490px;
+    /* background-color: rgb(250, 202, 202);   */
+}
+.captcha form{
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-top: 10px;
+    background-color: #080411; 
+}
+.botonreservar{
+    margin-left: 0px;
+    text-align:center;
+    font-size: 30px;
+    height: 125px;
+    width: 490px;
+    /* background-color: rgb(148, 63, 63);   */
+}
+.botonreservar button{
+    background-color: #ece4fa;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+}
+.infopago input{
+    font-size: 20px; 
+    font-family:Arial;
+    width: 400px;
+    height: 25px;
+    text-align:center;
+    opacity: 10.5;
+}
+msg-error {
+    color: #c65848;
+  }
+.g-recaptcha.error {
+    border: solid 2px #c64848;
+    padding: .2em;
+    width: 19em;
+ }
+ 
+
+
+
+
